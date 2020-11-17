@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             resultadoView.setText("Você errou, a resposta certa é: " + estados[sorteado][1]);
         }
         if(rodada==5){
-            msgView.setText("Fim de Jogo.");
+            msgView.setText("Fim de Jogo");
             proxButton.setEnabled(false);
             adivinharButton.setEnabled(false);
         }else{
